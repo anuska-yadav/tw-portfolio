@@ -2,46 +2,31 @@
 
 Welcome to my Technical Writing Portfolio!
 
-This repository contains technical documentation, practical work, and learning resources created as part of my academic journey.
+This repository showcases my learning and practical work in technical writing, documentation, and related tools as part of my academic journey.
 
 ## Contents
 
 ### 1. Git and GitHub
-Documentation covering Git fundamentals, version control, branching, merging, remote repositories, and collaboration.
+
+A structured guide covering version control, Git commands, branching, merging, remote repositories, collaboration, and troubleshooting.
 
 [Explore Git and GitHub →](./Git-and-GitHub/README.md)
 
 ### 2. LaTeX
-Documentation and practical work related to LaTeX.
 
-[Explore LaTeX →](./LaTeX/)
+Documentation covering LaTeX fundamentals, document structure, mathematical expressions, text formatting, tables, figures, colours, and environments.
 
-### 3. Beamer
-Presentations and documentation created using LaTeX Beamer.
+[Explore LaTeX →](./LaTeX/README.md)
 
-[Explore Beamer →](./Beamer/)
+## Upcoming Sections
 
-### 4. Doxygen
-Documentation related to code documentation using Doxygen.
-
-[Explore Doxygen →](./Doxygen/)
-
-### 5. Google Docs
-Technical writing exercises and documents created using Google Docs.
-
-[Explore Google Docs →](./Google-Docs/)
-
-### 6. Practical Work
-Assignments and practical exercises completed as part of coursework.
-
-[Explore Practical Work →](./Practical-Work/)
-
----
+- **Beamer:** Creating presentations using LaTeX Beamer.
+- **Doxygen:** Generating documentation from source code.
+- **Google Docs:** Technical writing exercises and documents.
+- **Practical Work:** Assignments and practical exercises.
 
 ## About
 
-This portfolio showcases my learning, documentation skills, and practical experience with different technical writing tools and technologies.
+This portfolio documents my learning journey and demonstrates my understanding of technical writing tools and documentation practices.
 
 **Author:** Anuska Yadav
-
----
