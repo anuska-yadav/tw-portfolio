@@ -1,0 +1,26 @@
+\documentclass{beamer}
+\title{Overlays and Transitions}
+\author{Student Name}
+\date{\today}
+\begin{document}
+\begin{frame}
+  \titlepage
+\end{frame}
+\begin{frame}{Step-by-Step Bullet Points}
+  \begin{itemize}
+    \item First point
+    \pause
+    \item Second point
+    \pause
+    \item Third point
+  \end{itemize}
+\end{frame}
+\begin{frame}{Using only}
+  \only<1>{This text appears on overlay 1.}
+  \only<2>{This text appears on overlay 2.}
+\end{frame}
+\begin{frame}{Transition}
+  \transdissolve
+  This frame demonstrates a dissolve transition command.
+\end{frame}
+\end{document}

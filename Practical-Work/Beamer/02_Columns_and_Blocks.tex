@@ -1,0 +1,40 @@
+\documentclass{beamer}
+\title{Columns and Blocks}
+\author{Student Name}
+\date{\today}
+\begin{document}
+\begin{frame}
+  \titlepage
+\end{frame}
+\begin{frame}{Two-Column Layout}
+  \begin{columns}
+    \begin{column}{0.48\textwidth}
+      \begin{block}{Column One}
+        \begin{itemize}
+          \item LaTeX
+          \item Beamer
+        \end{itemize}
+      \end{block}
+    \end{column}
+    \begin{column}{0.48\textwidth}
+      \begin{block}{Column Two}
+        \begin{itemize}
+          \item Frames
+          \item Slides
+        \end{itemize}
+      \end{block}
+    \end{column}
+  \end{columns}
+\end{frame}
+\begin{frame}{Block Types}
+  \begin{block}{Definition}
+    A normal block groups related information.
+  \end{block}
+  \begin{exampleblock}{Example}
+    This is an example block.
+  \end{exampleblock}
+  \begin{alertblock}{Alert}
+    This is an alert block.
+  \end{alertblock}
+\end{frame}
+\end{document}

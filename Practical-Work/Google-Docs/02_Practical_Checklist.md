@@ -1,0 +1,14 @@
+# Google Docs practical checklist
+- [ ] Create a new document and rename it.
+- [ ] Apply Title, Heading 1 and Heading 2 styles.
+- [ ] Insert a table of contents and page break.
+- [ ] Format text, paragraphs, lists and page setup.
+- [ ] Use Find and Replace.
+- [ ] Insert and format a table and image.
+- [ ] Insert a drawing/diagram and equation.
+- [ ] Share with a suitable collaborator using least-privilege access.
+- [ ] Add a comment and demonstrate Suggesting mode.
+- [ ] Name a version and inspect version history.
+- [ ] Add real citations and bibliography.
+- [ ] Download as PDF and DOCX.
+- [ ] Review sharing and privacy settings before submission.

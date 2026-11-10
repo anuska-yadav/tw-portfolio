@@ -1,0 +1,92 @@
+\doxysection{Student Class Reference}
+\hypertarget{class_student}{}\label{class_student}\index{Student@{Student}}
+
+
+Stores a student\textquotesingle{}s name and marks.  
+
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{class_student_aaa91b0c0435fd1b00089170ff2289318}{Student}} (const std::\+string \&student\+Name, int student\+Marks)
+\begin{DoxyCompactList}\small\item\em Constructs a \doxylink{class_student}{Student} object. \end{DoxyCompactList}\item 
+std::\+string \doxymbox{\hyperlink{class_student_af2b671e64af8a240f59652414a8b8047}{get\+Name}} () const
+\begin{DoxyCompactList}\small\item\em Gets the student\textquotesingle{}s name. \end{DoxyCompactList}\item 
+bool \doxymbox{\hyperlink{class_student_ac3b6ce8ff1ff939e1e1d44d795528a55}{has\+Passed}} () const
+\begin{DoxyCompactList}\small\item\em Checks whether the student passed. \end{DoxyCompactList}\item 
+char \doxymbox{\hyperlink{class_student_a4c1a1d295317233f0fb2e41b8aa42eaa}{calculate\+Grade}} () const
+\begin{DoxyCompactList}\small\item\em Calculates a letter grade. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Stores a student\textquotesingle{}s name and marks. 
+
+\label{class_student_doc-constructors}
+\Hypertarget{class_student_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_student_aaa91b0c0435fd1b00089170ff2289318}\index{Student@{Student}!Student@{Student}}
+\index{Student@{Student}!Student@{Student}}
+\doxysubsubsection{\texorpdfstring{Student()}{Student()}}
+{\footnotesize\ttfamily \label{class_student_aaa91b0c0435fd1b00089170ff2289318} 
+Student::\+\+Student (\begin{DoxyParamCaption}\item[{const std::\+string \&}]{student\+Name}{, }\item[{int}]{student\+Marks}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Constructs a \doxylink{class_student}{Student} object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em student\+Name} & Name of the student. \\
+\hline
+{\em student\+Marks} & Marks obtained by the student. \\
+\hline
+\end{DoxyParams}
+
+
+\label{class_student_doc-func-members}
+\Hypertarget{class_student_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_student_a4c1a1d295317233f0fb2e41b8aa42eaa}\index{Student@{Student}!calculateGrade@{calculateGrade}}
+\index{calculateGrade@{calculateGrade}!Student@{Student}}
+\doxysubsubsection{\texorpdfstring{calculateGrade()}{calculateGrade()}}
+{\footnotesize\ttfamily \label{class_student_a4c1a1d295317233f0fb2e41b8aa42eaa} 
+char Student::\+calculate\+Grade (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Calculates a letter grade. 
+
+\begin{DoxyReturn}{Returns}
+A, B, C, or F according to the marks. 
+\end{DoxyReturn}
+\Hypertarget{class_student_af2b671e64af8a240f59652414a8b8047}\index{Student@{Student}!getName@{getName}}
+\index{getName@{getName}!Student@{Student}}
+\doxysubsubsection{\texorpdfstring{getName()}{getName()}}
+{\footnotesize\ttfamily \label{class_student_af2b671e64af8a240f59652414a8b8047} 
+std::\+string Student::\+get\+Name (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Gets the student\textquotesingle{}s name. 
+
+\begin{DoxyReturn}{Returns}
+The student\textquotesingle{}s name. 
+\end{DoxyReturn}
+\Hypertarget{class_student_ac3b6ce8ff1ff939e1e1d44d795528a55}\index{Student@{Student}!hasPassed@{hasPassed}}
+\index{hasPassed@{hasPassed}!Student@{Student}}
+\doxysubsubsection{\texorpdfstring{hasPassed()}{hasPassed()}}
+{\footnotesize\ttfamily \label{class_student_ac3b6ce8ff1ff939e1e1d44d795528a55} 
+bool Student::\+has\+Passed (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Checks whether the student passed. 
+
+\begin{DoxyReturn}{Returns}
+true when marks are at least 40; otherwise false. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+Doxygen/\doxymbox{\hyperlink{main_8cpp}{main.\+cpp}}\end{DoxyCompactItemize}
