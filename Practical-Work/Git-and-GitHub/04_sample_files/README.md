@@ -1,2 +1,2 @@
-# Git practice repository
-A small sample repository for learning add, commit, branch, merge and push.
+# Sample files
+Use these files only in a disposable practice repository.

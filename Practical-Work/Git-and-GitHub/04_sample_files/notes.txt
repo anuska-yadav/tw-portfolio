@@ -1,1 +1,2 @@
-First note for Git practice.
+Git practical sample file.
+Use this file to practise add, commit, diff and restore.

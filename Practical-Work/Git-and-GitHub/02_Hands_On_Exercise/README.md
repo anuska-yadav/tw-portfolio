@@ -1,15 +1,63 @@
-# Hands-on exercise
-Perform these steps in a new folder called `git-practice` (not in your portfolio repository).
+# Hands-on Git Exercise (Disposable Repository)
 
-1. Create `README.md` and `notes.txt`.
-2. Run `git init`, then `git status`.
-3. Stage and commit the README.
-4. Change the README; inspect with `git diff`.
-5. Stage the change; inspect with `git diff --staged`.
-6. Commit the change.
-7. Create `feature-notes`, add a line to notes, and commit.
-8. Switch to `main` and merge `feature-notes`.
-9. Create an empty GitHub repository in your account.
-10. Add the remote URL and push.
-11. If collaborating, ask a partner to fork the repository, clone their fork, add `upstream`, create a branch, and open a pull request.
-12. Capture screenshots of `status`, `log`, branch/merge, remote, and GitHub repository page.
+Run this in a new practice folder, **not inside your portfolio repository**.
+
+## A. Create the repository
+```bash
+mkdir git-branch-lab
+cd git-branch-lab
+git init
+```
+Create `notes.txt` with:
+```text
+Git practical: first version
+```
+Then:
+```bash
+git add notes.txt
+git commit -m "Add first version of notes"
+```
+
+## B. Create a branch and merge
+```bash
+git switch -c feature-notes
+```
+Change `notes.txt` to add a second line, then:
+```bash
+git add notes.txt
+git commit -m "Update notes on feature branch"
+git switch main
+git merge feature-notes
+git log --oneline --graph --all
+```
+
+## C. Simulate a merge conflict
+```bash
+git switch -c conflict-a
+```
+Change the first line of `notes.txt` to `Version from branch A`, then commit.
+```bash
+git add notes.txt
+git commit -m "Change note from branch A"
+git switch main
+```
+Change the same first line to `Version from main`, then commit.
+```bash
+git add notes.txt
+git commit -m "Change note from main"
+git merge conflict-a
+```
+Git should report a conflict. Open `notes.txt`, choose the final content and remove all conflict markers. Then:
+```bash
+git add notes.txt
+git commit -m "Resolve merge conflict"
+git status
+```
+
+## D. Connect a remote (optional)
+Create an empty repository on GitHub, then:
+```bash
+git remote add origin YOUR_REPOSITORY_URL
+git push -u origin main
+```
+Do not include a password or token in the remote URL.

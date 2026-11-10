@@ -1,19 +1,49 @@
-PROJECT_NAME           = "TW Doxygen Student Result"
+# Doxygen configuration for the Student Result Management practical.
+# Run this file from the Practical-Work/Doxygen directory:
+#   doxygen Doxyfile
+
+PROJECT_NAME           = "Student Result Management"
 PROJECT_NUMBER         = 1.0
-PROJECT_BRIEF          = "Mini project for Technical Writing"
+PROJECT_BRIEF          = "Technical Writing Doxygen Practical"
 OUTPUT_DIRECTORY       = generated
-INPUT                  = Doxygen
+
+INPUT                  = main.cpp
 FILE_PATTERNS          = *.cpp *.h
-RECURSIVE              = YES
+RECURSIVE              = NO
+EXCLUDE                =
+
 EXTRACT_ALL            = YES
 EXTRACT_PRIVATE        = YES
+EXTRACT_STATIC         = YES
+HIDE_UNDOC_MEMBERS     = NO
+HIDE_UNDOC_CLASSES     = NO
+
 GENERATE_HTML          = YES
 HTML_OUTPUT            = html
+HTML_TIMESTAMP         = YES
+GENERATE_TREEVIEW      = YES
+DISABLE_INDEX          = NO
+SEARCHENGINE            = YES
+
 GENERATE_LATEX         = YES
+LATEX_OUTPUT           = latex
+USE_PDFLATEX           = YES
+
 GENERATE_XML           = YES
 XML_OUTPUT             = xml
+
 WARNINGS               = YES
 WARN_IF_UNDOCUMENTED   = YES
+WARN_IF_DOC_ERROR      = YES
+QUIET                  = NO
+
 HAVE_DOT               = YES
+DOT_PATH               =
+CLASS_GRAPH            = YES
+COLLABORATION_GRAPH    = YES
+GROUP_GRAPHS           = YES
 CALL_GRAPH             = YES
 CALLER_GRAPH           = YES
+UML_LOOK               = YES
+DOT_IMAGE_FORMAT       = svg
+INTERACTIVE_SVG        = YES

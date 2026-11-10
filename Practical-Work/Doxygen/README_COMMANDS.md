@@ -1,9 +1,39 @@
-# Doxygen commands
+# Doxygen Commands and Tags
+
+Run commands from `Practical-Work/Doxygen`.
+
+## Installation checks
 ```bash
 doxygen --version
-g++ main.cpp -o student_result
-./student_result
-doxygen -g Doxyfile
-doxygen Doxyfile
+dot -V
 ```
-The supplied Doxyfile is ready to run; `doxygen -g Doxyfile` is only needed if you want to generate a fresh default configuration file. On macOS/Linux, compile using the commands above. On Windows, use a C++ compiler available on your system and run the resulting executable. If `HAVE_DOT` causes warnings because Graphviz is not installed, install Graphviz or set `HAVE_DOT = NO`.
+
+## Configuration and generation
+```bash
+doxygen -g Doxyfile       # create a default configuration (only if none exists)
+doxygen Doxyfile          # generate documentation using this configuration
+doxygen -u Doxyfile       # update an existing configuration file
+open generated/html/index.html
+```
+
+## Useful documentation commands
+
+| Tag | Purpose |
+|---|---|
+| `@file` | Documents a source file |
+| `@brief` | Short description |
+| `@details` | Detailed description |
+| `@param` | Describes a parameter |
+| `@return` | Describes a return value |
+| `@class` | Documents a class |
+| `@author` | Author information |
+| `@date` | Date |
+| `@see` | Cross-reference |
+| `@code` / `@endcode` | Code example |
+| `@note` | Note |
+| `@warning` | Warning |
+| `@todo` | Pending work |
+| `@defgroup` | Defines a documentation group |
+| `@{` / `@}` | Opens/closes a group |
+
+`@` and `\\` are interchangeable prefixes in Doxygen. For example, `@brief` and `\\brief` have the same meaning.

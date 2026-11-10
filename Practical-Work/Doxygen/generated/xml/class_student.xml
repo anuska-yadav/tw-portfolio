@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doxygen>
+  <compounddef kind="class" id="class_student">
+    <compoundname>Student</compoundname>
+    <briefdescription><para>Stores a student's name and marks.</para></briefdescription>
+    <sectiondef kind="public-func">
+      <memberdef kind="function"><name>getName</name><type>std::string</type><briefdescription><para>Gets the student's name.</para></briefdescription></memberdef>
+      <memberdef kind="function"><name>getMarks</name><type>int</type><briefdescription><para>Gets marks obtained.</para></briefdescription></memberdef>
+      <memberdef kind="function"><name>hasPassed</name><type>bool</type><briefdescription><para>Checks whether the student passed.</para></briefdescription></memberdef>
+      <memberdef kind="function"><name>calculateGrade</name><type>char</type><briefdescription><para>Calculates the student's letter grade.</para></briefdescription></memberdef>
+    </sectiondef>
+  </compounddef>
+</doxygen>

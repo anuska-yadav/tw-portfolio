@@ -4,11 +4,13 @@
 **Course:** Technical Writing  
 **Repository:** Technical Writing Portfolio
 
+---
+
 ## About This Repository
 
-This repository contains my Technical Writing course work, documentation, practical exercises, and learning resources.
+This repository contains my Technical Writing coursework, documentation, practical exercises, and learning resources.
 
-The purpose of this portfolio is to understand and demonstrate the use of different technical writing tools and technologies used for creating, managing, and maintaining technical documents and software documentation.
+The purpose of this portfolio is to understand and demonstrate the use of various technical writing tools and technologies used for creating, managing, and maintaining technical documents and software documentation.
 
 It covers tools such as Git and GitHub, LaTeX, Beamer, Doxygen, and Google Docs, along with their concepts, features, commands, and practical applications.
 
@@ -18,7 +20,7 @@ It covers tools such as Git and GitHub, LaTeX, Beamer, Doxygen, and Google Docs,
 
 This section covers version control using Git and repository management using GitHub.
 
-Topics include:
+**Topics include:**
 - Introduction to Git and GitHub
 - Installation and configuration
 - Basic Git commands
@@ -29,13 +31,13 @@ Topics include:
 - Collaboration
 - Troubleshooting
 
-[Explore Git and GitHub Documentation](./Git-and-GitHub/README.md)
+[Explore Git and GitHub Documentation](./Practical-Work/Git-and-GitHub/README.md)
 
 ### 2. LaTeX
 
 This section introduces LaTeX, a document preparation system widely used for creating professional technical and academic documents.
 
-Topics include:
+**Topics include:**
 - Introduction to LaTeX
 - Installation and configuration
 - Document structure
@@ -45,13 +47,13 @@ Topics include:
 - References and bibliography
 - Advanced document preparation
 
-[Explore LaTeX Documentation](./LaTeX/README.md)
+[Explore LaTeX Documentation](./Practical-Work/LaTeX/README.md)
 
 ### 3. Beamer
 
 This section focuses on creating professional presentations using the Beamer document class in LaTeX.
 
-It covers presentation structure, frames, themes, formatting, and other presentation features.
+It covers presentation structure, frames, themes, formatting, columns, blocks, overlays, and other presentation features.
 
 [Explore Beamer Documentation](./Beamer/README.md)
 
@@ -59,9 +61,9 @@ It covers presentation structure, frames, themes, formatting, and other presenta
 
 This section covers Doxygen, an open-source documentation generator used to automatically generate software documentation from specially formatted comments in source code.
 
-Topics include:
+**Topics include:**
 - Introduction and installation
-- Configuration
+- Configuration using Doxyfile
 - Documentation comments
 - Commands and special tags
 - Documenting classes and functions
@@ -74,7 +76,7 @@ Topics include:
 
 This section explores Google Docs as an online word-processing tool for creating, editing, formatting, and collaborating on documents.
 
-Topics include:
+**Topics include:**
 - Introduction to Google Docs
 - Document creation and structure
 - Formatting and styles
@@ -84,7 +86,7 @@ Topics include:
 - References and citations
 - Exporting and document management
 
-[Explore Google Docs Documentation](./Google-Docs/README.md)
+[Explore Google Docs Documentation](./Practical-Work/Google-Docs/README.md)
 
 ### 6. Practical Work
 
@@ -92,37 +94,47 @@ This section contains practical exercises, assignments, demonstrations, and impl
 
 It demonstrates the practical application of the concepts discussed in the documentation sections.
 
-[Explore Practical Work](./Practical-Work/README.md)
+**Practical work includes:**
+- Git and GitHub command-line exercises
+- Doxygen source-code documentation and generation
+- LaTeX document preparation
+- Beamer presentation creation
+- Google Docs document preparation
+
+[Explore Practical Work](./Practical-Work/START_HERE.md)
 
 ## Repository Structure
 
 ```text
 tw-portfolio/
 │
-├── Git-and-GitHub/
-│   ├── README.md
-│   └── Documentation Files
-│
-├── LaTeX/
-│   ├── README.md
-│   └── Documentation Files
-│
 ├── Beamer/
+│   ├── README.md
 │   └── Documentation Files
 │
 ├── Doxygen/
 │   ├── README.md
-│   └── Documentation Files
-│
-├── Google-Docs/
-│   ├── README.md
-│   └── Documentation Files
+│   └── 01-09 Documentation Chapters
 │
 ├── Practical-Work/
+│   ├── Doxygen/
+│   │   ├── main.cpp
+│   │   ├── Doxyfile
+│   │   ├── generated/
+│   │   │   ├── html/
+│   │   │   ├── latex/
+│   │   │   └── xml/
+│   │   └── README.md
+│   │
+│   ├── Git-and-GitHub/
+│   ├── LaTeX/
+│   ├── Beamer/
+│   └── Google-Docs/
 │
 ├── Assets/
 │
-└── README.md
+├── README.md
+└── .gitignore
 ```
 
 ## Tools and Technologies Used
@@ -133,9 +145,10 @@ tw-portfolio/
 - Overleaf
 - Beamer
 - Doxygen
+- Graphviz
 - Google Docs
 - Markdown
-- C/C++
+- C++
 
 ## Purpose of the Portfolio
 
