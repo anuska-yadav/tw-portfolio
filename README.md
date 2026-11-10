@@ -101,7 +101,7 @@ It demonstrates the practical application of the concepts discussed in the docum
 - Beamer presentation creation
 - Google Docs document preparation
 
-[Explore Practical Work](./Practical-Work/START_HERE.md)
+[Explore Practical Work](./Practical-Work/README.md)
 
 ## Repository Structure
 
